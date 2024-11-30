@@ -542,7 +542,7 @@ async function playerContent(vod_id) {
         url = url[0].url
     }
     backData.url = url;
-    backData.headers = headersToString({'User-Agent': 'AVDML_2.1.158.44-tt-net4_ANDROID,tt_mixed_stream,MDLTaskPreload,MDLGroup(13)'});
+    backData.header = headersToString({'User-Agent': 'AVDML_2.1.158.44-tt-net4_ANDROID,tt_mixed_stream,MDLTaskPreload,MDLGroup(13)'});
     backData.playUrl = '';
     backData.parse = 1;
     //console.log(JSON.stringify(backData));
