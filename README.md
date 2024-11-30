@@ -20,6 +20,8 @@
 
 11月29日：增加酷云影视（直链1080P）
 
+11月30日：增加囧次元（动漫直链源）
+
 # 新传的配置请搭配1.0.4版以上使用，否则可能出现异常。
 # 请务必转存到自己的仓库使用
 ios端配置（支持嗅探）：https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/配置.json
