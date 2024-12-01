@@ -236,19 +236,6 @@
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
 	},{
-		"key": "zjys",
-		"name": "荔枝影视(嗅探)",
-		"type": 6,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/soup/zjys_soup.json",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
-	},{
 		"key": "laowang",
 		"name": "老王电影(嗅探)",
 		"type": 6,
@@ -258,19 +245,6 @@
 		"filterPlay": "",
 		"firstPlay": "",
 		"ext": "https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/soup/laowang_soup.json",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
-	},{
-		"key": "liic",
-		"name": "里里影院(嗅探)",
-		"type": 6,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/soup/liic_soup.json",
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
@@ -340,19 +314,6 @@
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
 	},{
-		"key": "vidhub",
-		"name": "视频库(嗅探)",
-		"type": 4,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "内地剧,港台剧,国产动漫",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/xbiubiu/vidhub_xbiubiu.json",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
-	},{
 		"key": "auete",
 		"name": "auete影视(嗅探)",
 		"type": 4,
@@ -414,19 +375,6 @@
 		"filterPlay": "",
 		"firstPlay": "",
 		"ext": "https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/xbiu/348z_xbiu.json",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
-	},{
-		"key": "newfii",
-		"name": "奈落影视(嗅探)",
-		"type": 2,
-		"searchable": 0,
-		"filterClass": "纪录片,体育,私密,APP",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/xpath/newfii_xpath.json",
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
