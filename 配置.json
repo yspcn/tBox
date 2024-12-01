@@ -140,6 +140,20 @@
 		"keepPlayFileKeywords": "",
         "selectedPlayer":"0"
 	},{
+		"key": "xiaopingguo",
+		"name": "小苹果(直链)",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "直播",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/js/xiaopingguo.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+        "selectedPlayer":"1"
+	},{
 		"key": "gzys",
 		"name": "瓜子影视(直链)",
 		"type": 5,
