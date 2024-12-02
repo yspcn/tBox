@@ -367,19 +367,6 @@
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
 	},{
-		"key": "88kan",
-		"name": "88看(嗅探)",
-		"type": 3,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/xbiu/88kan_xbiu.json",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ".akamaized.net/obj/"
-	},{
 		"key": "tvby02",
 		"name": "tvb云播(嗅探)",
 		"type": 3,
@@ -389,19 +376,6 @@
 		"filterPlay": "",
 		"firstPlay": "",
 		"ext": "https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/xbiu/hktv03_XBiu.json",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
-	},{
-		"key": "348z",
-		"name": "348电影(嗅探)",
-		"type": 3,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/xbiu/348z_xbiu.json",
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
@@ -524,19 +498,6 @@
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
 	},{
-		"key": "iKunzy",
-		"name": "iKun资源",
-		"type": 0,
-		"searchable": 1,
-		"filterClass": "电影,连续剧,综艺,动漫,伦理片,体育,足球,内地明星,港台明星,德甲,意甲,英超,西甲,法甲,NBA,CBA,LPL,WCBA,篮球,里番动漫",
-		"firstClass": "国产剧,香港剧,国产动漫",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "https://ikunzyapi.com/api.php/provide/vod/at/xml/",
-		"flagable": 1,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
-	},{
 		"key": "heimuer",
 		"name": "木耳资源",
 		"type": 1,
@@ -549,7 +510,7 @@
 		"flagable": 1,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": "",
-		"selectedPlayer": "1"
+		"selectedPlayer": "0"
 	},{
 		"key": "yunpan",
 		"name": "夸克云盘(仅搜索)",
