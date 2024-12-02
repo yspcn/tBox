@@ -440,7 +440,7 @@ async function playerContent(vod_id) {
     if (parseApi) {
       if (parseApi.startsWith('http')) {
         webUrl = `${parseApi}${part1}`;
-        const response = await fetch(webUrl, {
+        const response = await req(webUrl, {
           method: 'POST',
           headers: headers,
         });
@@ -455,7 +455,7 @@ async function playerContent(vod_id) {
       } else {
         let encryptedUrl = encrypt(part1);
         let bodyData = `parse_api=${encodeURIComponent(parseApi)}&url=${encodeURIComponent(encryptedUrl)}&token=`;
-        let response = await fetch(webUrl, {
+        let response = await req(webUrl, {
           method: 'POST',
           headers: {
             'app-version-code': '100',
