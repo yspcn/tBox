@@ -246,7 +246,7 @@
 		"filterPlay": "",
 		"firstPlay": "",
 		"ext": "https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/xml/",
-		"flagable": 1,
+		"flagable": 0,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
 	},{
