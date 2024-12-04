@@ -15,7 +15,7 @@
 		"selectedPlayer": "0"
 	},{
 		"key": "mogg",
-		"name": "🤹‍♂️木偶┃UC",
+		"name": "🤹‍♂️木偶┃UC盘",
 		"type": 5,
 		"searchable": 1,
 		"filterClass": "",
@@ -85,7 +85,7 @@
 		"selectedPlayer": "0"
 	},{
 		"key": "xiaomi",
-		"name": "🍚小米┃网盘",
+		"name": "🍚小米┃UC盘",
 		"type": 5,
 		"searchable": 1,
 		"filterClass": "",
