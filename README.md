@@ -9,9 +9,9 @@
 天翼云盘的cookie有IP验证,切换IP后cookie会无效，且ipv4和ipv6的cookie无法混用。建议在电信的WIFI环境下使用(ipv4)。
 如雷鲸无返回数据，请在设置中打开一次该站点，该站点有时需效验。
 
-### 12月12日：IOS端更新1.0.9版，支持听书模式
+### 12月12日15:30分：重新上传1.0.9版，修复海洋听书异常（1.0.9版支持后台熄屏听书）
 
-工作繁忙，因安卓端优秀APP很多，暂不对安卓端进行维护（旧版可正常使用）
+因安卓端优秀APP很多、再加上工作繁忙，暂不对安卓端进行新版发布（旧版可正常使用）
 
 配置如下：
 
@@ -34,6 +34,26 @@
 	"selectedPlayer": "2"
 }
 ```
+
+
+```json
+{
+	"key": "haiyang",
+	"name": "🌊海洋┃听书",
+	"type": 5,
+	"searchable": 1,
+	"filterClass": "",
+	"firstClass": "",
+	"filterPlay": "",
+	"firstPlay": "",
+	"ext": "https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/js/haiyang.js",
+	"flagable": 0,
+	"filterPlayFileKeywords": "",
+	"keepPlayFileKeywords": "",
+	"selectedPlayer": "2"
+}
+```
+
 
 ------------------------------------------------------
 该源大部分频道需要ipv6访问
