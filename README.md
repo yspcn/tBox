@@ -9,13 +9,13 @@
 天翼云盘的cookie有IP验证,切换IP后cookie会无效，且ipv4和ipv6的cookie无法混用。建议在电信的WIFI环境下使用(ipv4)。
 如雷鲸无返回数据，请在设置中打开一次该站点，该站点有时需效验。
 
-### 12月12日：更新1.0.9版，支持听书模式（工作繁忙，安卓端止步1.0.8版）
+### 12月12日：IOS端更新1.0.9版，支持听书模式
+
+工作繁忙，因安卓端优秀APP很多，暂不对安卓端进行维护（旧版可正常使用）
 
 配置如下：
 
 "selectedPlayer": "2" 选择音频播放器
-
-"keepPlayFileKeywords": ".mp3?ts=,.m4a" 嗅探链接中包含.mp3?ts=或者.m4a的音频文件
 
 ```json
 {
@@ -30,7 +30,7 @@
 	"ext": "https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/js/6yueting.js",
 	"flagable": 0,
 	"filterPlayFileKeywords": "",
-	"keepPlayFileKeywords": ".mp3?ts=,.m4a",
+	"keepPlayFileKeywords": "",
 	"selectedPlayer": "2"
 }
 ```
