@@ -295,7 +295,7 @@ async function detailContent(ids) {
   let backData = new RepVideo();
   let webUrl = webSite + ids;
   try {
-    //await toast("正在获取影视详情...", 2);
+    //await toast("正在获取详情页面...", 2);
     let pro = await req(webUrl, {
       headers: {
         "User-Agent": UA,
@@ -303,19 +303,24 @@ async function detailContent(ids) {
     });
     let proData = await pro.text();
     const $ = cheerio.load(proData);
-    let vod_content = $(".detail-text").text().trim();
+    let vod_content = $(".detail-text").text().replace(/\n/g, "").trim();
     let vod_pic = $(".book-item-img img").attr("src");
     let vod_name = $(".bread-book").text().trim();
     let vod_year = "";
     let vod_director = $(".book-item-info .author").text().trim();
     let vod_actor = $(".book-item-info .g-user").text().trim();
     let vod_area = "";
-    let vod_remarks = $(".status-serial.status-end").text().trim();
+    let vod_remarks = $(".status-serial.status-end").text().trim() || $(".status-serial").text().trim();
+    //如果vod_remarks为空
+    //if (vod_remarks == "") {
+    //  vod_remarks = $(".status-serial").text().trim();
+    //}
     let vod_play_from = "播放列表";
     let vod_play_url = "";
+    console.log(vod_remarks);
     const totalEpisodes = vod_remarks.split("|")[1].match(/\d+/)[0]; // 提取右边的数字
     // 生成指定格式的文本
-    const baseUrl = webUrl.replace("list", "play").trim(); // 基础链接
+    const baseUrl = webUrl.replace("list", "play").trim(); 
     for (let i = 1; i <= totalEpisodes; i++) {
       vod_play_url += `第${i}集$${baseUrl}/${i}`;
       if (i < totalEpisodes) {
