@@ -54,6 +54,23 @@
 }
 ```
 
+```json
+{
+	"key": "qtradio",
+	"name": "🎧蜻蜓┃FM广播",
+	"type": 5,
+	"searchable": 1,
+	"filterClass": "",
+	"firstClass": "",
+	"filterPlay": "",
+	"firstPlay": "",
+	"ext": "https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/js/qtradio.js",
+	"flagable": 0,
+	"filterPlayFileKeywords": "",
+	"keepPlayFileKeywords": "",
+	"selectedPlayer": "2"
+}
+```
 
 ------------------------------------------------------
 该源大部分频道需要ipv6访问
