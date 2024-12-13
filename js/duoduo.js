@@ -1,8 +1,4 @@
-//编写代码时，使用变量名称ucCookie、quarkCookie，编写完成后务必屏蔽掉，否则会报错（app会自动调用设置中的cookie）。
-//const ucCookie='在设置中登录uc网盘';
-//const quarkCookie='在设置中登录夸克网盘';
-//代码中未分析阿里云盘，如有能力请自行完善
-//在app的下方弹出提示文字
+const webSite= 'https://tv.yydsys.top';
 
 async function toast(msg, seconds = 2) {
     await sendMessage('toast', JSON.stringify({ msg: msg, seconds: seconds }));
@@ -885,7 +881,7 @@ if (isQuark) {
    
    async function homeContent() {
      try {
-       const url = `https://tv.yydsys.top/`;
+       const url = webSite;
        const html2 = await 访问网页(url);
        const html = 文本_取中间(html2, "最新影片</h2>", "</html>");
        // 使用正则表达式匹配所有的电影项
@@ -991,7 +987,39 @@ if (isQuark) {
                { "n": "2011", "v": "2011" },
                { "n": "2010", "v": "2010" }
              ]
-           },
+           },{
+            "key": "letter",
+            "name": "字母",
+            "value": [
+              { "n": "全部", "v": "" },
+              { "n": "A", "v": "A" },
+              { "n": "B", "v": "B" },
+              { "n": "C", "v": "C" },
+              { "n": "D", "v": "D" },
+              { "n": "E", "v": "E" },
+              { "n": "F", "v": "F" },
+              { "n": "G", "v": "G" },
+              { "n": "H", "v": "H" },
+              { "n": "I", "v": "I" },
+              { "n": "J", "v": "J" },
+              { "n": "K", "v": "K" },
+              { "n": "L", "v": "L" },
+              { "n": "M", "v": "M" },
+              { "n": "N", "v": "N" },
+              { "n": "O", "v": "O" },
+              { "n": "P", "v": "P" },
+              { "n": "Q", "v": "Q" },
+              { "n": "R", "v": "R" },
+              { "n": "S", "v": "S" },
+              { "n": "T", "v": "T" },
+              { "n": "U", "v": "U" },
+              { "n": "V", "v": "V" },
+              { "n": "W", "v": "W" },
+              { "n": "X", "v": "X" },
+              { "n": "Y", "v": "Y" },
+              { "n": "Z", "v": "Z" }
+            ]
+          },
            {
              "key": "by",
              "name": "排序",
@@ -1064,7 +1092,39 @@ if (isQuark) {
                { "n": "2011", "v": "2011" },
                { "n": "2010", "v": "2010" }
              ]
-           },
+           },{
+            "key": "letter",
+            "name": "字母",
+            "value": [
+              { "n": "全部", "v": "" },
+              { "n": "A", "v": "A" },
+              { "n": "B", "v": "B" },
+              { "n": "C", "v": "C" },
+              { "n": "D", "v": "D" },
+              { "n": "E", "v": "E" },
+              { "n": "F", "v": "F" },
+              { "n": "G", "v": "G" },
+              { "n": "H", "v": "H" },
+              { "n": "I", "v": "I" },
+              { "n": "J", "v": "J" },
+              { "n": "K", "v": "K" },
+              { "n": "L", "v": "L" },
+              { "n": "M", "v": "M" },
+              { "n": "N", "v": "N" },
+              { "n": "O", "v": "O" },
+              { "n": "P", "v": "P" },
+              { "n": "Q", "v": "Q" },
+              { "n": "R", "v": "R" },
+              { "n": "S", "v": "S" },
+              { "n": "T", "v": "T" },
+              { "n": "U", "v": "U" },
+              { "n": "V", "v": "V" },
+              { "n": "W", "v": "W" },
+              { "n": "X", "v": "X" },
+              { "n": "Y", "v": "Y" },
+              { "n": "Z", "v": "Z" }
+            ]
+          },
            {
              "key": "by",
              "name": "排序",
@@ -1132,7 +1192,39 @@ if (isQuark) {
                { "n": "2011", "v": "2011" },
                { "n": "2010", "v": "2010" }
              ]
-           },
+           },{
+            "key": "letter",
+            "name": "字母",
+            "value": [
+              { "n": "全部", "v": "" },
+              { "n": "A", "v": "A" },
+              { "n": "B", "v": "B" },
+              { "n": "C", "v": "C" },
+              { "n": "D", "v": "D" },
+              { "n": "E", "v": "E" },
+              { "n": "F", "v": "F" },
+              { "n": "G", "v": "G" },
+              { "n": "H", "v": "H" },
+              { "n": "I", "v": "I" },
+              { "n": "J", "v": "J" },
+              { "n": "K", "v": "K" },
+              { "n": "L", "v": "L" },
+              { "n": "M", "v": "M" },
+              { "n": "N", "v": "N" },
+              { "n": "O", "v": "O" },
+              { "n": "P", "v": "P" },
+              { "n": "Q", "v": "Q" },
+              { "n": "R", "v": "R" },
+              { "n": "S", "v": "S" },
+              { "n": "T", "v": "T" },
+              { "n": "U", "v": "U" },
+              { "n": "V", "v": "V" },
+              { "n": "W", "v": "W" },
+              { "n": "X", "v": "X" },
+              { "n": "Y", "v": "Y" },
+              { "n": "Z", "v": "Z" }
+            ]
+          },
            {
              "key": "by",
              "name": "排序",
@@ -1176,7 +1268,39 @@ if (isQuark) {
                { "n": "2011", "v": "2011" },
                { "n": "2010", "v": "2010" }
              ]
-           },
+           },{
+            "key": "letter",
+            "name": "字母",
+            "value": [
+              { "n": "全部", "v": "" },
+              { "n": "A", "v": "A" },
+              { "n": "B", "v": "B" },
+              { "n": "C", "v": "C" },
+              { "n": "D", "v": "D" },
+              { "n": "E", "v": "E" },
+              { "n": "F", "v": "F" },
+              { "n": "G", "v": "G" },
+              { "n": "H", "v": "H" },
+              { "n": "I", "v": "I" },
+              { "n": "J", "v": "J" },
+              { "n": "K", "v": "K" },
+              { "n": "L", "v": "L" },
+              { "n": "M", "v": "M" },
+              { "n": "N", "v": "N" },
+              { "n": "O", "v": "O" },
+              { "n": "P", "v": "P" },
+              { "n": "Q", "v": "Q" },
+              { "n": "R", "v": "R" },
+              { "n": "S", "v": "S" },
+              { "n": "T", "v": "T" },
+              { "n": "U", "v": "U" },
+              { "n": "V", "v": "V" },
+              { "n": "W", "v": "W" },
+              { "n": "X", "v": "X" },
+              { "n": "Y", "v": "Y" },
+              { "n": "Z", "v": "Z" }
+            ]
+          },
            {
              "key": "by",
              "name": "排序",
@@ -1208,7 +1332,39 @@ if (isQuark) {
                { "n": "2011", "v": "2011" },
                { "n": "2010", "v": "2010" }
              ]
-           },
+           },{
+            "key": "letter",
+            "name": "字母",
+            "value": [
+              { "n": "全部", "v": "" },
+              { "n": "A", "v": "A" },
+              { "n": "B", "v": "B" },
+              { "n": "C", "v": "C" },
+              { "n": "D", "v": "D" },
+              { "n": "E", "v": "E" },
+              { "n": "F", "v": "F" },
+              { "n": "G", "v": "G" },
+              { "n": "H", "v": "H" },
+              { "n": "I", "v": "I" },
+              { "n": "J", "v": "J" },
+              { "n": "K", "v": "K" },
+              { "n": "L", "v": "L" },
+              { "n": "M", "v": "M" },
+              { "n": "N", "v": "N" },
+              { "n": "O", "v": "O" },
+              { "n": "P", "v": "P" },
+              { "n": "Q", "v": "Q" },
+              { "n": "R", "v": "R" },
+              { "n": "S", "v": "S" },
+              { "n": "T", "v": "T" },
+              { "n": "U", "v": "U" },
+              { "n": "V", "v": "V" },
+              { "n": "W", "v": "W" },
+              { "n": "X", "v": "X" },
+              { "n": "Y", "v": "Y" },
+              { "n": "Z", "v": "Z" }
+            ]
+          },
            {
              "key": "by",
              "name": "排序",
@@ -1247,7 +1403,7 @@ if (isQuark) {
    async function searchContent(keyword) {
        try {
            const encodedKeyword = encodeURIComponent(keyword);
-           const url = `https://tv.yydsys.top/index.php/vod/search.html?wd=${encodedKeyword}`;
+           const url = `${webSite}/index.php/vod/search.html?wd=${encodedKeyword}`;
            const html = await 访问网页(url);
            const items = 文本_取中间_批量(html,'<div class="module-search-item">','<div class="video-info-footer">');
            const list = items.map((item) => {
@@ -1297,7 +1453,7 @@ if (isQuark) {
      try {
        // 解析 extend 参数
     let extendObj = extend ? JSON.parse(extend) : null;
-    let url = `https://tv.yydsys.top/index.php/vod/show/area/{area}/by/{by}/class/{cateId}/id/${tid}/page/${pg}/year/{year}.html`;
+    let url = `${webSite}/index.php/vod/show/area/{area}/by/{by}/class/{cateId}/id/${tid}/page/${pg}/letter/{letter}/year/{year}.html`;
     // 替换 URL 中的占位符
     if (extendObj) {
       for (const [key, value] of Object.entries(extendObj)) {
@@ -1355,7 +1511,7 @@ if (isQuark) {
    //获取影视详情信息
   //获取影视详情信息
 async function detailContent(ids) {
-  const url = `https://tv.yydsys.top${ids}`;
+  const url = `${webSite}${ids}`;
   try {
     //console.log(url);
     await toast('正在加载影片信息',2);
