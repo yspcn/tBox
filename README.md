@@ -20,6 +20,47 @@ tBox虽然在UI设计上借鉴了猫影视的风格，但其源码是完全不�
 ### V1.0.11版更新：优化搜索、增加豆瓣、酷我音乐（请在设置中登录哔哩哔哩，部分VIP歌曲通过该网站解析）
 新版请搭配new.json配置使用：https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/new.json
 
+
+ recommend为1时为推荐源，点击影片时会跳转搜索页面。
+```json
+{
+		"key": "douban",
+		"name": "👍豆瓣┃推荐",
+		"type": 5,
+		"searchable": 0,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/newjs/douban.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+    "recommend": "1"
+	}
+```
+
+ selectedPlayer为2时打开详情页后自动选择音频播放器。
+```json
+{
+		"key": "kuwosong",
+		"name": "🎵酷我┃音乐",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/newjs/kuwosong.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "2"
+	}
+```
+
+
+
 ------------------------------------------------------
 该直播源大部分频道需要ipv6访问，其他源请自行从github搜索。
 
