@@ -53,3 +53,5 @@ APP会自动将quarkCookie（夸克网盘）、ucCookie（uc网盘）、cloud189
 
 调试时自己let或const下cookie的变量（ 例如：let ucCookie='你的uc网盘cookie'; ）
 发布时记得屏蔽或删除掉变量定义。 //let ucCookie='你的uc网盘cookie'
+
+ps: 前期写的网盘类js扩展代码不是很规范，请参考其他js(已经懒得去完善了^_^)
