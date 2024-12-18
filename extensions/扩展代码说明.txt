@@ -1,3 +1,5 @@
+作为一个JavaScript菜鸟的我，希望介绍的文字已足够详细。
+
 在Visual Studio中导入extensions文件夹后，您可以直接编写vod.js文件。
 
 请注意，由于当前环境使用的是JavascriptCore，因此不支持通过import语句导入模块。
