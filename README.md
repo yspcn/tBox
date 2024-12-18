@@ -103,9 +103,9 @@ User-Agent: okHttp
 
 ------------------------------------------------
 ### 视频源配置链接
-ios端配置（支持嗅探）：https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/配置.json
+ios端配置（支持嗅探）：https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/配置.json
 
-安卓端配置（不支持嗅探）：https://ghp.ci/raw.githubusercontent.com/tt9912/tBox/refs/heads/main/安卓配置.json
+安卓端配置（不支持嗅探）：https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/安卓配置.json
 
 
 **关于tBox的更新：**
