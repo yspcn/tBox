@@ -43,3 +43,11 @@ filterPlay": "test1,test2"  过滤相关播放源
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	}
+
+
+
+
+APP会自动将quarkCookie（夸克网盘）、ucCookie（uc网盘）、cloud189Cookie（天翼网盘）、BiliCookie（哔哩哔哩）写入js代码中，如需开发相关代码，请保持调用的cookie变量名一致。
+
+调试时自己let或const下cookie的变量（ 例如：let ucCookie='你的uc网盘cookie'; ）
+发布时记得屏蔽或删除掉变量定义。 //let ucCookie='你的uc网盘cookie'
