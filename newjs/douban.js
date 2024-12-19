@@ -114,7 +114,14 @@ async function categoryContent(tid, pg = 1, extend) {
     let video = proData?.items?.map((item) => {
       let videoDet = new VideoList();
       videoDet.vod_id = item.id;
-      videoDet.vod_pic = item.pic?.normal || item.pic?.large || "";
+      //videoDet.vod_pic = item.pic?.normal || item.pic?.large || "";
+      //图片加入缓存机制
+videoDet.vod_pic = item.pic?.normal 
+  ? `https://images.weserv.nl/?url=${item.pic.normal}&w=300&h=300` 
+  : item.pic?.large 
+    ? `https://images.weserv.nl/?url=${item.pic.large}&w=300&h=300` 
+    : "";
+
       videoDet.vod_name = item.title;
       videoDet.vod_remarks = "豆瓣" + (item.rating?.value || "");
       return videoDet;
