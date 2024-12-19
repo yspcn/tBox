@@ -27,7 +27,11 @@ IOS影视点播源： https://ghproxy.cn/https://raw.githubusercontent.com/tt991
 
 IOS听书听歌源：https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/music.json
 
+
+应大家要求，补充安卓端。（音频播放器不适配安卓端，音乐+听书默认使用：推荐播放器）
+
 安卓端视频源： https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/安卓new.json
+
 
 旧版配置不再维护，请更新至新版。
 
