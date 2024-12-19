@@ -20,7 +20,12 @@ tBox虽然在UI设计上借鉴了猫影视的风格，但其源码是完全不�
 如雷鲸无返回数据，请在设置中打开一次该站点，该站点有时需效验。
 
 ### V1.0.11版更新：优化搜索、增加豆瓣、酷我音乐（请在设置中登录哔哩哔哩，VIP歌曲通过该站解析）
-1.0.11版以上请搭配new.json配置使用：https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/new.json
+
+1.0.11版以上请搭配new.json配置使用：
+
+影视点播源： https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/new.json
+
+听书听歌源：https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/music.json
 
 旧版配置不再维护，请更新至新版。
 
