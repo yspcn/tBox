@@ -320,7 +320,7 @@
 		"key": "kuwosong",
 		"name": "🎵酷我┃音乐",
 		"type": 5,
-		"searchable": 0,
+		"searchable": 1,
 		"filterClass": "",
 		"firstClass": "",
 		"filterPlay": "",
