@@ -17,7 +17,7 @@
 		"key": "kuwosong2",
 		"name": "🎵酷我┃推荐播放器",
 		"type": 5,
-		"searchable": 0,
+		"searchable": 1,
 		"filterClass": "",
 		"firstClass": "",
 		"filterPlay": "",
