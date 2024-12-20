@@ -60,8 +60,6 @@ IOS听书听歌源：https://ghproxy.cn/https://raw.githubusercontent.com/tt9912
 
  selectedPlayer为2时打开详情页后自动选择音频播放器。
  
- ps: 哔哩哔哩的音源，音频播放器可能出现：无法拖动进度、倒计时显示错误（可尝试选择源：🎵酷我┃推荐播放器  播放）。
- 
  酷我音乐搜索方法：
  
  1：直接输入歌曲名称（例如：爱在西元前）
