@@ -25,25 +25,8 @@ IOS听书听歌源：music.json
 
 安卓端视频源： 安卓new.json
 
+配置中：
  recommend为1时为推荐源，点击影片时会跳转搜索页面。
-```json
-{
-	"key": "douban",
-	"name": "👍豆瓣┃推荐",
-	"type": 5,
-	"searchable": 0,
-	"filterClass": "",
-	"firstClass": "",
-	"filterPlay": "",
-	"firstPlay": "",
-	"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/newjs/douban.js",
-	"flagable": 0,
-	"filterPlayFileKeywords": "",
-	"keepPlayFileKeywords": "",
-	"recommend": "1"
-}
-```
-
  selectedPlayer为2时打开详情页后自动选择音频播放器。
  
  酷我音乐搜索方法：
@@ -53,26 +36,6 @@ IOS听书听歌源：music.json
  2：输入歌手文字及姓名（例如：歌手周杰伦）
  
  3：输入专辑文字及名称（例如：专辑叶惠美、周杰伦专辑）
- 
-```json
-{
-	"key": "kuwosong",
-	"name": "🎵酷我┃音乐",
-	"type": 5,
-	"searchable": 1,
-	"filterClass": "",
-	"firstClass": "",
-	"filterPlay": "",
-	"firstPlay": "",
-	"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/newjs/kuwosong.js",
-	"flagable": 0,
-	"filterPlayFileKeywords": "",
-	"keepPlayFileKeywords": "",
-	"selectedPlayer": "2"
-}
-```
-
-
 
 ------------------------------------------------------
 该直播源大部分频道需要ipv6访问，其他源请自行从github搜索。
