@@ -1,13 +1,4 @@
-
-
-## APP简介
-tBox是一款多功能APP空壳，支持导入直播源、影视和听书源。
-
-在影视点播方面，用户可播放4K网盘资源，也可自行编写简单的规则实现嗅探网页播放; 听书模式则允许后台熄屏播放。
-
-tBox虽然在UI设计上借鉴了猫影视的风格，但其源码是完全不同的。
-猫影视作为一款经典应用，我个人作为业余开发者，自认为难以超越。
-我从猫影视的安卓低版本就开始使用，后来也见证了tvbox的诞生。非常感谢各位开发者，让我们能够实现观影自由。
+## 建议将仓库转存到自己的github，不定期删除。
 
 ## 温馨提示
 夸克网盘需最低88会员观看、UC网盘+天翼云盘无需会员。由于网盘自身限制，夸克+UC切换剧集时建议间隔最少10秒。（播放网盘资源时，建议设置中调整播放器缓存为128M）
@@ -25,17 +16,14 @@ tBox虽然在UI设计上借鉴了猫影视的风格，但其源码是完全不�
 
 1.0.11版以上请搭配new.json配置使用：
 
-IOS影视点播源： https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/new.json
+IOS影视点播源： new.json
 
-IOS听书听歌源：https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/music.json
+IOS听书听歌源：music.json
 
 
 应大家要求，补充安卓端。（音频播放器不适配安卓端，音乐+听书默认使用：推荐播放器）
 
-安卓端视频源： https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/安卓new.json
-
-
-旧版配置不再维护，请更新至新版。
+安卓端视频源： 安卓new.json
 
  recommend为1时为推荐源，点击影片时会跳转搜索页面。
 ```json
@@ -104,11 +92,11 @@ User-Agent: okHttp
 
 ------------------------------------------------
 ### 视频源配置链接
-旧版配置（限1.0.9~1.0.10版，后续不再维护，建议更新）：https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/配置.json
+旧版配置（限1.0.9~1.0.10版，后续不再维护，建议更新）：配置.json
 
-新版IOS端配置（限1.0.11版以上）：https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/new.json
+新版IOS端配置（限1.0.11版以上）：new.json
 
-新版安卓端配置（限1.0.11版以上）：https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/安卓new.json
+新版安卓端配置（限1.0.11版以上）：安卓new.json
 
 **关于tBox的更新：**
 
