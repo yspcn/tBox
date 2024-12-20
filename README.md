@@ -66,7 +66,7 @@ IOS听书听歌源：https://ghproxy.cn/https://raw.githubusercontent.com/tt9912
  
  2：输入歌手文字及姓名（例如：歌手周杰伦）
  
- 3：输入专辑文字及名称（例如：专辑叶惠美）
+ 3：输入专辑文字及名称（例如：专辑叶惠美、周杰伦专辑）
  
 ```json
 {
