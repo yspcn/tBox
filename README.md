@@ -1,5 +1,7 @@
 点击加入群组：https://t.me/+vgu3e34l2PQ5NDA1
 
+关于DLNA投屏、外部播放器：前提该视频未检测header协议头（例如：Referer、Origin、Cookie），才能调用外部播放。
+
 ## APP简介
 tBox是一款多功能APP空壳，支持导入直播源、影视和听书源。
 
